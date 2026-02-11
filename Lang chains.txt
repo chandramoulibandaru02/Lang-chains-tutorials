@@ -1,0 +1,56 @@
+Lang chains:
+
+
+lang chains are used to generate models like text, image generation and here the langchains are building an ecosystem and other part is lanchain ecosystem which is used to Mlops and here we have to use the apis.
+
+
+Important components of langchain
+
+1) RAG : Retrieval augumented generation
+
+we have specific data source and we have pdf file and we have to make it as q/ans if a user asks any query and then it has to give the response 
+
+initially we have to load the datasets like pdf,image,text file any type of file and we will split the data into smaller text chunks means document chunks here chunks means pieces 
+
+here limitation of llm is context size it is based on the model 
+
+we will take the data and make into chunks and then we will split 
+
+after pieces of text we will change them into embedded vectors 
+
+and after we see vector DB like diff diff databases here we can ask question and give similar words 
+
+
+
+step 1 is data ingestion
+
+step 2 split the data into chunks 
+
+step 3 embedding will be done
+
+step 4 is vector data base 
+
+
+
+
+questiin + prompt given to llm then gives as answer
+
+here prompt is acting as ai assistant 
+
+the question will be searched from the vector store 
+
+1) document staff load chain
+2) retreval chain
+
+ they both are part of retrieval chain and it is the interface to the query in the vector store DB 
+
+the context will be picked in the prompt and combining with prompt gives to vector DB 
+
+
+
+
+
+
+
+
+
